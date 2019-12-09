@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginTop="20dp"
+        android:text="USER"
+        android:paddingLeft="109dp"
+        android:textSize="27sp"
+        android:textColor="#C6B42626"
+        android:textColorHint="#00ECE7E7"
+        android:textStyle="bold|italic"
+        app:fontFamily="@font/audiowide">
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+    </TextView>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginTop="20dp"
+        android:text="INFO"
+        android:paddingLeft="7dp"
+        android:textColor="#C61DBEBE"
+        android:textColorHint="#00ECE7E7"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        app:fontFamily="@font/audiowide">
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+    </TextView>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="58dp"
+
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/user">
+
+    </ImageView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:orientation="vertical"
+        android:paddingLeft="100dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="USER ID"
+                android:textStyle="bold"
+                app:fontFamily="@font/audiowide">
+
+            </TextView>
+
+
+            <TextView
+                android:id="@+id/out1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:text="out1"
+                android:textColor="#EAECE4"
+                android:textSize="20dp"
+                android:textStyle="bold"
+
+
+                app:fontFamily="@font/black_ops_one" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="FNAME"
+                android:textStyle="bold"
+                app:fontFamily="@font/audiowide">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/out2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:text="out2"
+                android:textColor="#F7F8F5"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                app:fontFamily="@font/black_ops_one">
+
+            </TextView>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="LNAME"
+                android:textStyle="bold"
+                app:fontFamily="@font/audiowide">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/out3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:text="out3"
+                android:textColor="#EDEEEB"
+                android:textSize="20dp"
+                android:textStyle="bold"
+
+
+                app:fontFamily="@font/black_ops_one" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="EMAIL"
+                android:textStyle="bold"
+                app:fontFamily="@font/audiowide">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/out4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                android:text="out4"
+                android:textColor="#FAFCF7"
+                android:textSize="20dp"
+                android:textStyle="bold"
+
+
+                app:fontFamily="@font/black_ops_one" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="PHONE"
+                android:textStyle="bold"
+                app:fontFamily="@font/audiowide">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/out5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                android:text="out5"
+                android:textColor="#F2F3F1"
+                android:textSize="20dp"
+                android:textStyle="bold"
+
+
+                app:fontFamily="@font/black_ops_one" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="ADDRESS"
+                android:textStyle="bold"
+                app:fontFamily="@font/audiowide">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/out6"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:text="out6"
+                android:textColor="#FDFFFA"
+                android:textSize="20dp"
+                android:textStyle="bold"
+
+
+                app:fontFamily="@font/black_ops_one" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
